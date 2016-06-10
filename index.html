@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Проект по вебкам</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .div1
+        {
+           float: ;
+            background: blue;
+            height: 50px;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        .myfooter
+        {
+            text-align: center;
+            width: 100%;
+            background: green;
+            height: 50px;
+            font-family: "Comic Sans MS";
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        header {
+            text-align: center;
+            width: 100%;
+            background: green;
+            height: 50px;
+            font-family: "Comic Sans MS";
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        /*.wrapper {*/
+            /*height: calc(100% - 70px);*/
+        /*}*/
+        .wrapper > div {
+            float: left;
+        }
+        .sidebar {
+            width: 150px;
+        }
+        .content {
+            width: calc(100%-250px);
+        }
+        .grid1{
+            background:red;
+            margin-right:2%;
+            width:15%;
+            float:left;
+        }
+        .grid2{
+            background:orange;
+            margin-right:2%;
+            width:15%;
+            float:left;
+        }
+        .grid3{
+            background:yellow;
+            width:15%;
+            margin-right:2%;
+            float:left;
+        }
+        .grid4{
+            background:green;
+            width:15%;
+            margin-right:2%;
+            float:left;
+        }
+        .clearfix:after {
+            content: " ";
+            clear: both;
+            display: block;
+        }
+        @media (max-width:600px){
+            body .sidebar {
+                width: 100%;
+            }
+            body .content {
+                width: 100%;
+            }
+            .wrapper {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        My header
+    </header>
+    <div class="wrapper clearfix">
+        <div class="sidebar">
+            <ul>
+                <li><a href="http://google.com">google</a></li>
+                <li><a href="http://ya.ru">yandex</a></li>
+                <li><a href="http://vk.com">vk.com</a></li>
+            </ul>
+        </div>
+        <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio enim odit. Accusamus aliquam architecto, corporis culpa, cupiditate dolores et id illo labore placeat sit velit, voluptas voluptatibus. Blanditiis, necessitatibus.</div>
+
+    <!--<div class="grid1">Вращение велико. Механическая система искажает подвес. Расчеты предсказывают, что уход гироскопа учитывает резонансный стабилизатор. Неконсервативная сила горизонтально проецирует небольшой альтиметр. Последнее векторное равенство заставляет иначе взглянуть на то, что такое собственный кинетический момент, что видно из уравнения кинетической энергии ротора. Интеграл от переменной величины ортогонально искажает апериодический угол курса.-->
+        <!--</div>-->
+    <!--<div class="grid2">Вращение велико. Механическая система искажает подвес. Расчеты предсказывают, что уход гироскопа учитывает резонансный стабилизатор. Неконсервативная сила горизонтально проецирует небольшой альтиметр. Последнее векторное равенство заставляет иначе взглянуть на то, что такое собственный кинетический момент, что видно из уравнения кинетической энергии ротора. Интеграл от переменной величины ортогонально искажает апериодический угол курса.-->
+    <!--</div>-->
+    <!--<div class="grid3">Вращение велико. Механическая система искажает подвес. Расчеты предсказывают, что уход гироскопа учитывает резонансный стабилизатор. Неконсервативная сила горизонтально проецирует небольшой альтиметр. Последнее векторное равенство заставляет иначе взглянуть на то, что такое собственный кинетический момент, что видно из уравнения кинетической энергии ротора. Интеграл от переменной величины ортогонально искажает апериодический угол курса.-->
+    <!--</div>-->
+    <!--<div class="grid4">Вращение велико. Механическая система искажает подвес. Расчеты предсказывают, что уход гироскопа учитывает резонансный стабилизатор. Неконсервативная сила горизонтально проецирует небольшой альтиметр. Последнее векторное равенство заставляет иначе взглянуть на то, что такое собственный кинетический момент, что видно из уравнения кинетической энергии ротора. Интеграл от переменной величины ортогонально искажает апериодический угол курса.-->
+    <!--</div>-->
+    <!--<div class="div1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio enim odit. Accusamus aliquam architecto, corporis culpa, cupiditate dolores et id illo labore placeat sit velit, voluptas voluptatibus. Blanditiis, necessitatibus.</div>-->
+
+    </div>
+
+    <footer class="myfooter">
+         Footer
+        </footer>
+</body>
+</html>
